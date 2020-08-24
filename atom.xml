@@ -6,7 +6,7 @@
   <link href="http://dyilin.com/atom.xml" rel="self"/>
   
   <link href="http://dyilin.com/"/>
-  <updated>2020-08-23T05:32:18.398Z</updated>
+  <updated>2020-08-24T09:55:36.361Z</updated>
   <id>http://dyilin.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>first blog</title>
+    <link href="http://dyilin.com/2020/08/24/first-blog/"/>
+    <id>http://dyilin.com/2020/08/24/first-blog/</id>
+    <published>2020-08-24T09:05:00.000Z</published>
+    <updated>2020-08-24T09:55:36.361Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;这是我的第一个blog&quot;&gt;&lt;a href=&quot;#这是我的第一个blog&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="fitst" scheme="http://dyilin.com/categories/fitst/"/>
+    
+    
+    <category term="blog" scheme="http://dyilin.com/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
