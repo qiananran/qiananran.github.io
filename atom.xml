@@ -6,7 +6,7 @@
   <link href="http://dyilin.com/atom.xml" rel="self"/>
   
   <link href="http://dyilin.com/"/>
-  <updated>2020-08-24T09:55:36.361Z</updated>
+  <updated>2020-08-25T04:38:18.052Z</updated>
   <id>http://dyilin.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>vim8.1的安装</title>
+    <link href="http://dyilin.com/2020/08/25/vim8-1%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>http://dyilin.com/2020/08/25/vim8-1%E7%9A%84%E5%AE%89%E8%A3%85/</id>
+    <published>2020-08-25T04:30:55.000Z</published>
+    <updated>2020-08-25T04:38:18.052Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>first blog</title>
     <link href="http://dyilin.com/2020/08/24/first-blog/"/>
     <id>http://dyilin.com/2020/08/24/first-blog/</id>
     <published>2020-08-24T09:05:00.000Z</published>
-    <updated>2020-08-24T09:55:36.361Z</updated>
+    <updated>2020-08-25T04:33:19.474Z</updated>
     
     
       
@@ -46,7 +67,7 @@
     <link href="http://dyilin.com/2020/08/23/hello-world/"/>
     <id>http://dyilin.com/2020/08/23/hello-world/</id>
     <published>2020-08-23T05:32:18.397Z</published>
-    <updated>2020-08-23T05:32:18.398Z</updated>
+    <updated>2020-08-25T04:33:21.382Z</updated>
     
     
       
