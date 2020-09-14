@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Fwenqian</title>
-  <icon>http://fwenqian.com/icon.png</icon>
+  <title>Dyilin</title>
+  <icon>http://dyilin.com/icon.png</icon>
   
-  <link href="http://fwenqian.com/atom.xml" rel="self"/>
+  <link href="http://dyilin.com/atom.xml" rel="self"/>
   
-  <link href="http://fwenqian.com/"/>
+  <link href="http://dyilin.com/"/>
   <updated>2020-08-25T04:38:18.052Z</updated>
-  <id>http://fwenqian.com/</id>
+  <id>http://dyilin.com/</id>
   
   <author>
-    <name>wen qian</name>
+    <name>yi lin</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>vim8.1的安装</title>
-    <link href="http://fwenqian.com/2020/08/25/vim8-1%E7%9A%84%E5%AE%89%E8%A3%85/"/>
-    <id>http://fwenqian.com/2020/08/25/vim8-1%E7%9A%84%E5%AE%89%E8%A3%85/</id>
+    <link href="http://dyilin.com/2020/08/25/vim8-1%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>http://dyilin.com/2020/08/25/vim8-1%E7%9A%84%E5%AE%89%E8%A3%85/</id>
     <published>2020-08-25T04:30:55.000Z</published>
     <updated>2020-08-25T04:38:18.052Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>first blog</title>
-    <link href="http://fwenqian.com/2020/08/24/first-blog/"/>
-    <id>http://fwenqian.com/2020/08/24/first-blog/</id>
+    <link href="http://dyilin.com/2020/08/24/first-blog/"/>
+    <id>http://dyilin.com/2020/08/24/first-blog/</id>
     <published>2020-08-24T09:05:00.000Z</published>
     <updated>2020-08-25T04:33:19.474Z</updated>
     
@@ -55,17 +55,17 @@
     
     
     
-    <category term="fitst" scheme="http://fwenqian.com/categories/fitst/"/>
+    <category term="fitst" scheme="http://dyilin.com/categories/fitst/"/>
     
     
-    <category term="blog" scheme="http://fwenqian.com/tags/blog/"/>
+    <category term="blog" scheme="http://dyilin.com/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://fwenqian.com/2020/08/23/hello-world/"/>
-    <id>http://fwenqian.com/2020/08/23/hello-world/</id>
+    <link href="http://dyilin.com/2020/08/23/hello-world/"/>
+    <id>http://dyilin.com/2020/08/23/hello-world/</id>
     <published>2020-08-23T05:32:18.397Z</published>
     <updated>2020-08-25T04:33:21.382Z</updated>
     
