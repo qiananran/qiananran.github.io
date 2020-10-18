@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>在centos7下安装桌面软件 - Dyilin</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="dyilin,"> 
+    <meta name="description" content="
+说明：此次安装以idea为示例
+
+一：下载软件提示：下载软件请到官网进行下载，请勿相信一些恶意软件下载平台
+idea官方下载地址：
+1https://www.jetbrains.com/idea/,"> 
+    <meta name="author" content="yi lin"> 
+    <link rel="alternative" href="atom.xml" title="Dyilin" type="application/atom+xml"> 
+    <link rel="icon" href="/img/D_round_d.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 5.1.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Dyilin</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://dyilin.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">在centos7下安装桌面软件</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">在centos7下安装桌面软件</h1>
+        <div class="stuff">
+            <span>十月 18, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/centos-%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/" rel="tag">centos 软件安装</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <blockquote>
+<p>说明：此次安装以idea为示例</p>
+</blockquote>
+<h2 id="一：下载软件"><a href="#一：下载软件" class="headerlink" title="一：下载软件"></a>一：下载软件</h2><p>提示：下载软件请到官网进行下载，请勿相信一些恶意软件下载平台</p>
+<p>idea官方下载地址：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.jetbrains.com/idea/download/</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/qiananran/Image/chrome_JRYrnJbMJQ.png"></p>
+<h2 id="二：下载后解压缩"><a href="#二：下载后解压缩" class="headerlink" title="二：下载后解压缩"></a>二：下载后解压缩</h2><p>将压缩包放在你想要放入的地方，然后使用解压命令进行解压</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xvf 压缩包名称</span><br></pre></td></tr></table></figure>
+
+<h2 id="三：为软件添加快捷方式"><a href="#三：为软件添加快捷方式" class="headerlink" title="三：为软件添加快捷方式"></a>三：为软件添加快捷方式</h2><p>linux版本的datagrip并不用安装步骤。在idea-2018.2.4//bin目录下有idea.sh的启动脚本。可以通过脚本启动，但这是需要命令启动。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;idea.sh</span><br></pre></td></tr></table></figure>
+
+<p>我们每次这样打开有些繁琐，所以可以对其创建以下桌面的快捷方式，进行快速打开</p>
+<p>我们来到/usr/share/applications/目录下创建一个快捷方式</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/share/applications</span><br><span class="line">vim idea.desktop</span><br></pre></td></tr></table></figure>
+
+<p>在文件中写入</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Desktop Entry]</span><br><span class="line">Name=wechat</span><br><span class="line">Type=Application</span><br><span class="line">Exec=软件路径 </span><br><span class="line">Icon=软件的图标路径</span><br><span class="line">Terminal=false</span><br></pre></td></tr></table></figure>
+
+<p>exec和Icon的路径根据自己电脑上的路径进行更改</p>
+<p>这样，创建打启动图标还没有在桌面中出现，我们复制到桌面中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp &#x2F;usr&#x2F;share&#x2F;applications&#x2F;idea.Desktop &#x2F;home&#x2F;user&#x2F;桌面&#x2F;</span><br></pre></td></tr></table></figure>
+
+<p>因为我们之前是用root帐号操作打，这里复制到用户的桌面会有权限问题。我们将桌面打快捷方式用户组该为该用户即可。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown user &#x2F;home&#x2F;user&#x2F;桌面&#x2F;idea.desktop</span><br></pre></td></tr></table></figure>
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="http://domain.com/awesome.mp3">
+            </audio>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='true'
+        data-ci='81d18ebcfd6695054401'
+        data-cs='b3a13a8a17b3faab3ab37a0d473953fa8bb8a2a4'
+        data-r='myGitalk'
+        data-o='qiananran'
+        data-a='qiananran'
+        data-d='true'
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%EF%BC%9A%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6"><span class="toc-number">1.</span> <span class="toc-text">一：下载软件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%EF%BC%9A%E4%B8%8B%E8%BD%BD%E5%90%8E%E8%A7%A3%E5%8E%8B%E7%BC%A9"><span class="toc-number">2.</span> <span class="toc-text">二：下载后解压缩</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%EF%BC%9A%E4%B8%BA%E8%BD%AF%E4%BB%B6%E6%B7%BB%E5%8A%A0%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F"><span class="toc-number">3.</span> <span class="toc-text">三：为软件添加快捷方式</span></a></li></ol>	
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>

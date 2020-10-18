@@ -6,7 +6,7 @@
   <link href="http://dyilin.com/atom.xml" rel="self"/>
   
   <link href="http://dyilin.com/"/>
-  <updated>2020-08-25T04:38:18.052Z</updated>
+  <updated>2020-10-18T12:46:40.757Z</updated>
   <id>http://dyilin.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在centos7下安装桌面软件</title>
+    <link href="http://dyilin.com/2020/10/18/%E5%9C%A8centos7%E4%B8%8B%E5%AE%89%E8%A3%85%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6/"/>
+    <id>http://dyilin.com/2020/10/18/%E5%9C%A8centos7%E4%B8%8B%E5%AE%89%E8%A3%85%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6/</id>
+    <published>2020-10-18T12:30:59.000Z</published>
+    <updated>2020-10-18T12:46:40.757Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="centos" scheme="http://dyilin.com/categories/centos/"/>
+    
+    
+    <category term="centos 软件安装" scheme="http://dyilin.com/tags/centos-%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
   
   <entry>
     <title>vim8.1的安装</title>
