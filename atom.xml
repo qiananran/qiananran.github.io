@@ -6,7 +6,7 @@
   <link href="http://dyilin.com/atom.xml" rel="self"/>
   
   <link href="http://dyilin.com/"/>
-  <updated>2020-10-18T14:42:31.533Z</updated>
+  <updated>2020-10-19T03:13:18.112Z</updated>
   <id>http://dyilin.com/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JDBC学习</title>
+    <link href="http://dyilin.com/2020/10/19/JDBC/"/>
+    <id>http://dyilin.com/2020/10/19/JDBC/</id>
+    <published>2020-10-19T03:06:54.000Z</published>
+    <updated>2020-10-19T03:13:18.112Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="javaSE" scheme="http://dyilin.com/categories/javaSE/"/>
+    
+    
+    <category term="JDBC" scheme="http://dyilin.com/tags/JDBC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL学习笔记</title>
+    <link href="http://dyilin.com/2020/10/19/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://dyilin.com/2020/10/19/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-10-19T02:59:30.000Z</published>
+    <updated>2020-10-19T03:02:59.356Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="mysql" scheme="http://dyilin.com/categories/mysql/"/>
+    
+    
+    <category term="sql语句" scheme="http://dyilin.com/tags/sql%E8%AF%AD%E5%8F%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mycli安装与使用</title>
+    <link href="http://dyilin.com/2020/10/19/mycli%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>http://dyilin.com/2020/10/19/mycli%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-10-19T02:10:13.000Z</published>
+    <updated>2020-10-19T02:55:40.856Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据库编辑软件" scheme="http://dyilin.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="数据库编辑软件" scheme="http://dyilin.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>在win10下使用Hexo搭建本地个人博客</title>

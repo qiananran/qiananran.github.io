@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MySQL学习笔记 - Dyilin</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="dyilin,"> 
+    <meta name="description" content="登录和退出MySQL服务器12345# 登录MySQL$ mysql -u root -p12345612# 退出MySQL数据库服务器exit;
+
+基本语法12345678910111213141,"> 
+    <meta name="author" content="yi lin"> 
+    <link rel="alternative" href="atom.xml" title="Dyilin" type="application/atom+xml"> 
+    <link rel="icon" href="/img/D_round_d.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 5.1.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Dyilin</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://dyilin.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">MySQL学习笔记</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">MySQL学习笔记</h1>
+        <div class="stuff">
+            <span>十月 19, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/sql%E8%AF%AD%E5%8F%A5/" rel="tag">sql语句</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h2 id="登录和退出MySQL服务器"><a href="#登录和退出MySQL服务器" class="headerlink" title="登录和退出MySQL服务器"></a>登录和退出MySQL服务器</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 登录MySQL</span><br><span class="line">$ mysql -u root -p12345612</span><br><span class="line"></span><br><span class="line"># 退出MySQL数据库服务器</span><br><span class="line">exit;</span><br></pre></td></tr></table></figure>
+
+<h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">-- 显示所有数据库</span><br><span class="line">show databases;</span><br><span class="line"></span><br><span class="line">-- 创建数据库</span><br><span class="line">CREATE DATABASE test;</span><br><span class="line"></span><br><span class="line">-- 切换数据库</span><br><span class="line">use test;</span><br><span class="line"></span><br><span class="line">-- 显示数据库中的所有表</span><br><span class="line">show tables;</span><br><span class="line"></span><br><span class="line">-- 创建数据表</span><br><span class="line">CREATE TABLE pet (</span><br><span class="line">    name VARCHAR(20),</span><br><span class="line">    owner VARCHAR(20),</span><br><span class="line">    species VARCHAR(20),</span><br><span class="line">    sex CHAR(1),</span><br><span class="line">    birth DATE,</span><br><span class="line">    death DATE</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 查看数据表结构</span><br><span class="line">-- describe pet;</span><br><span class="line">desc pet;</span><br><span class="line"></span><br><span class="line">-- 查询表</span><br><span class="line">SELECT * from pet;</span><br><span class="line"></span><br><span class="line">-- 插入数据</span><br><span class="line">INSERT INTO pet VALUES (&#39;puffball&#39;, &#39;Diane&#39;, &#39;hamster&#39;, &#39;f&#39;, &#39;1990-03-30&#39;, NULL);</span><br><span class="line"></span><br><span class="line">-- 修改数据</span><br><span class="line">UPDATE pet SET name &#x3D; &#39;squirrel&#39; where owner &#x3D; &#39;Diane&#39;;</span><br><span class="line"></span><br><span class="line">-- 删除数据</span><br><span class="line">DELETE FROM pet where name &#x3D; &#39;squirrel&#39;;</span><br><span class="line"></span><br><span class="line">-- 删除表</span><br><span class="line">DROP TABLE myorder;</span><br></pre></td></tr></table></figure>
+
+<h2 id="建表约束"><a href="#建表约束" class="headerlink" title="建表约束"></a>建表约束</h2><h3 id="主键约束"><a href="#主键约束" class="headerlink" title="主键约束"></a>主键约束</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">-- 主键约束</span><br><span class="line">-- 使某个字段不重复且不得为空，确保表内所有数据的唯一性。</span><br><span class="line">CREATE TABLE user (</span><br><span class="line">    id INT PRIMARY KEY,</span><br><span class="line">    name VARCHAR(20)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 联合主键</span><br><span class="line">-- 联合主键中的每个字段都不能为空，并且加起来不能和已设置的联合主键重复。</span><br><span class="line">CREATE TABLE user (</span><br><span class="line">    id INT,</span><br><span class="line">    name VARCHAR(20),</span><br><span class="line">    password VARCHAR(20),</span><br><span class="line">    PRIMARY KEY(id, name)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 自增约束</span><br><span class="line">-- 自增约束的主键由系统自动递增分配。</span><br><span class="line">CREATE TABLE user (</span><br><span class="line">    id INT PRIMARY KEY AUTO_INCREMENT,</span><br><span class="line">    name VARCHAR(20)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 添加主键约束</span><br><span class="line">-- 如果忘记设置主键，还可以通过SQL语句设置（两种方式）：</span><br><span class="line">ALTER TABLE user ADD PRIMARY KEY(id);</span><br><span class="line">ALTER TABLE user MODIFY id INT PRIMARY KEY;</span><br><span class="line"></span><br><span class="line">-- 删除主键</span><br><span class="line">ALTER TABLE user drop PRIMARY KEY;</span><br></pre></td></tr></table></figure>
+
+<h3 id="唯一主键"><a href="#唯一主键" class="headerlink" title="唯一主键"></a>唯一主键</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">-- 建表时创建唯一主键</span><br><span class="line">CREATE TABLE user (</span><br><span class="line">    id INT,</span><br><span class="line">    name VARCHAR(20),</span><br><span class="line">    UNIQUE(name)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 添加唯一主键</span><br><span class="line">-- 如果建表时没有设置唯一建，还可以通过SQL语句设置（两种方式）：</span><br><span class="line">ALTER TABLE user ADD UNIQUE(name);</span><br><span class="line">ALTER TABLE user MODIFY name VARCHAR(20) UNIQUE;</span><br><span class="line"></span><br><span class="line">-- 删除唯一主键</span><br><span class="line">ALTER TABLE user DROP INDEX name;</span><br></pre></td></tr></table></figure>
+
+<h3 id="非空约束"><a href="#非空约束" class="headerlink" title="非空约束"></a>非空约束</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">-- 建表时添加非空约束</span><br><span class="line">-- 约束某个字段不能为空</span><br><span class="line">CREATE TABLE user (</span><br><span class="line">    id INT,</span><br><span class="line">    name VARCHAR(20) NOT NULL</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 移除非空约束</span><br><span class="line">ALTER TABLE user MODIFY name VARCHAR(20);</span><br></pre></td></tr></table></figure>
+
+<h3 id="默认约束"><a href="#默认约束" class="headerlink" title="默认约束"></a>默认约束</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">-- 建表时添加默认约束</span><br><span class="line">-- 约束某个字段的默认值</span><br><span class="line">CREATE TABLE user2 (</span><br><span class="line">    id INT,</span><br><span class="line">    name VARCHAR(20),</span><br><span class="line">    age INT DEFAULT 10</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 移除非空约束</span><br><span class="line">ALTER TABLE user MODIFY age INT;</span><br></pre></td></tr></table></figure>
+
+<h3 id="外键约束"><a href="#外键约束" class="headerlink" title="外键约束"></a>外键约束</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">-- 班级</span><br><span class="line">CREATE TABLE classes (</span><br><span class="line">    id INT PRIMARY KEY,</span><br><span class="line">    name VARCHAR(20)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 学生表</span><br><span class="line">CREATE TABLE students (</span><br><span class="line">    id INT PRIMARY KEY,</span><br><span class="line">    name VARCHAR(20),</span><br><span class="line">    -- 这里的 class_id 要和 classes 中的 id 字段相关联</span><br><span class="line">    class_id INT,</span><br><span class="line">    -- 表示 class_id 的值必须来自于 classes 中的 id 字段值</span><br><span class="line">    FOREIGN KEY(class_id) REFERENCES classes(id)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">-- 1. 主表（父表）classes 中没有的数据值，在副表（子表）students 中，是不可以使用的；</span><br><span class="line">-- 2. 主表中的记录被副表引用时，主表不可以被删除。</span><br></pre></td></tr></table></figure>
+
+<h2 id="数据库的三大设计范式"><a href="#数据库的三大设计范式" class="headerlink" title="数据库的三大设计范式"></a>数据库的三大设计范式</h2><h3 id="1NF"><a href="#1NF" class="headerlink" title="1NF"></a>1NF</h3><p>只要字段值还可以继续拆分，就不满足第一范式。</p>
+<p>范式设计得越详细，对某些实际操作可能会更好，但并非都有好处，需要对项目的实际情况进行设定。</p>
+<h3 id="2NF"><a href="#2NF" class="headerlink" title="2NF"></a>2NF</h3><p>在满足第一范式的前提下，其他列都必须完全依赖于主键列。如果出现不完全依赖，只可能发生在联合主键的情况下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">-- 订单表</span><br><span class="line">CREATE TABLE myorder (</span><br><span class="line">    product_id INT,</span><br><span class="line">    customer_id INT,</span><br><span class="line">    product_name VARCHAR(20),</span><br><span class="line">    customer_name VARCHAR(20),</span><br><span class="line">    PRIMARY KEY (product_id, customer_id)</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<p>实际上，在这张订单表中，<code>product_name</code> 只依赖于 <code>product_id</code> ，<code>customer_name</code> 只依赖于 <code>customer_id</code> 。也就是说，<code>product_name</code> 和 <code>customer_id</code> 是没用关系的，<code>customer_name</code> 和 <code>product_id</code> 也是没有关系的。</p>
+<p>这就不满足第二范式：其他列都必须完全依赖于主键列！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE myorder (</span><br><span class="line">    order_id INT PRIMARY KEY,</span><br><span class="line">    product_id INT,</span><br><span class="line">    customer_id INT</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">CREATE TABLE product (</span><br><span class="line">    id INT PRIMARY KEY,</span><br><span class="line">    name VARCHAR(20)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">CREATE TABLE customer (</span><br><span class="line">    id INT PRIMARY KEY,</span><br><span class="line">    name VARCHAR(20)</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<p>拆分之后，<code>myorder</code> 表中的 <code>product_id</code> 和 <code>customer_id</code> 完全依赖于 <code>order_id</code> 主键，而 <code>product</code> 和 <code>customer</code> 表中的其他字段又完全依赖于主键。满足了第二范式的设计！</p>
+<h3 id="3NF"><a href="#3NF" class="headerlink" title="3NF"></a>3NF</h3><p>在满足第二范式的前提下，除了主键列之外，其他列之间不能有传递依赖关系。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE myorder (</span><br><span class="line">    order_id INT PRIMARY KEY,</span><br><span class="line">    product_id INT,</span><br><span class="line">    customer_id INT,</span><br><span class="line">    customer_phone VARCHAR(15)</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<p>表中的 <code>customer_phone</code> 有可能依赖于 <code>order_id</code> 、 <code>customer_id</code> 两列，也就不满足了第三范式的设计：其他列之间不能有传递依赖关系。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE myorder (</span><br><span class="line">    order_id INT PRIMARY KEY,</span><br><span class="line">    product_id INT,</span><br><span class="line">    customer_id INT</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">CREATE TABLE customer (</span><br><span class="line">    id INT PRIMARY KEY,</span><br><span class="line">    name VARCHAR(20),</span><br><span class="line">    phone VARCHAR(15)</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<p>修改后就不存在其他列之间的传递依赖关系，其他列都只依赖于主键列，满足了第三范式的设计！</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="https://sharefs.yun.kugou.com/202010191101/57188a980418cc0a54daa15e0af4967f/G194/M04/15/17/YocBAF5iGfSAKw6CAEs0PuAUnrg202.mp3">
+            </audio>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='true'
+        data-ci='81d18ebcfd6695054401'
+        data-cs='b3a13a8a17b3faab3ab37a0d473953fa8bb8a2a4'
+        data-r='myGitalk'
+        data-o='qiananran'
+        data-a='qiananran'
+        data-d='true'
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%99%BB%E5%BD%95%E5%92%8C%E9%80%80%E5%87%BAMySQL%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-number">1.</span> <span class="toc-text">登录和退出MySQL服务器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95"><span class="toc-number">2.</span> <span class="toc-text">基本语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BB%BA%E8%A1%A8%E7%BA%A6%E6%9D%9F"><span class="toc-number">3.</span> <span class="toc-text">建表约束</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BB%E9%94%AE%E7%BA%A6%E6%9D%9F"><span class="toc-number">3.1.</span> <span class="toc-text">主键约束</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%94%AF%E4%B8%80%E4%B8%BB%E9%94%AE"><span class="toc-number">3.2.</span> <span class="toc-text">唯一主键</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%9E%E7%A9%BA%E7%BA%A6%E6%9D%9F"><span class="toc-number">3.3.</span> <span class="toc-text">非空约束</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%BB%98%E8%AE%A4%E7%BA%A6%E6%9D%9F"><span class="toc-number">3.4.</span> <span class="toc-text">默认约束</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%96%E9%94%AE%E7%BA%A6%E6%9D%9F"><span class="toc-number">3.5.</span> <span class="toc-text">外键约束</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%89%E5%A4%A7%E8%AE%BE%E8%AE%A1%E8%8C%83%E5%BC%8F"><span class="toc-number">4.</span> <span class="toc-text">数据库的三大设计范式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1NF"><span class="toc-number">4.1.</span> <span class="toc-text">1NF</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2NF"><span class="toc-number">4.2.</span> <span class="toc-text">2NF</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3NF"><span class="toc-number">4.3.</span> <span class="toc-text">3NF</span></a></li></ol></li></ol>	
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
