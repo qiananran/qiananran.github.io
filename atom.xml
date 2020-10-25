@@ -6,7 +6,7 @@
   <link href="http://dyilin.com/atom.xml" rel="self"/>
   
   <link href="http://dyilin.com/"/>
-  <updated>2020-10-21T02:57:02.739Z</updated>
+  <updated>2020-10-25T03:52:35.847Z</updated>
   <id>http://dyilin.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>python Qt5</title>
-    <link href="http://dyilin.com/2020/10/21/python-Qt5/"/>
-    <id>http://dyilin.com/2020/10/21/python-Qt5/</id>
-    <published>2020-10-21T02:57:02.000Z</published>
-    <updated>2020-10-21T02:57:02.739Z</updated>
+    <title>手写JDBC的几个步骤</title>
+    <link href="http://dyilin.com/2020/10/25/%E6%89%8B%E5%86%99JDBC%E7%9A%84%E5%87%A0%E4%B8%AA%E6%AD%A5%E9%AA%A4/"/>
+    <id>http://dyilin.com/2020/10/25/%E6%89%8B%E5%86%99JDBC%E7%9A%84%E5%87%A0%E4%B8%AA%E6%AD%A5%E9%AA%A4/</id>
+    <published>2020-10-25T03:46:38.000Z</published>
+    <updated>2020-10-25T03:52:35.847Z</updated>
     
     
       
@@ -34,31 +34,10 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>JDBC学习</title>
-    <link href="http://dyilin.com/2020/10/19/JDBC/"/>
-    <id>http://dyilin.com/2020/10/19/JDBC/</id>
-    <published>2020-10-19T03:06:54.000Z</published>
-    <updated>2020-10-19T03:13:18.112Z</updated>
+    <category term="java" scheme="http://dyilin.com/categories/java/"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="javaSE" scheme="http://dyilin.com/categories/javaSE/"/>
-    
-    
-    <category term="JDBC" scheme="http://dyilin.com/tags/JDBC/"/>
+    <category term="JDBC、Java" scheme="http://dyilin.com/tags/JDBC%E3%80%81Java/"/>
     
   </entry>
   

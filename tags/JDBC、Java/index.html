@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Archive: 2020/10</title>
+    <title>Tag: JDBC、Java - Dyilin</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
@@ -35,80 +35,105 @@
 <body class="loading">
     <span id="config-title" style="display:none">Dyilin</span>
     <div id="loader"></div>
-    <div id="single" class="page">
-    <div id="top">
-        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
-    </div>
-    <div class="section">
-        <div class="article">
-            <div class="main">
-                <div class="content">
-                    <div class="timeline">
-                      <h2 class="timeline-title">归档: 9篇</h2><hr>
-                      
-                      
-                        
-                          <h3 class="timeline-subtitle">2020</h3>
-                        
-                        <div class="timeline-item">
-                          <time>2020-10-21</time>
-                          <a target="_self" href="/2020/10/21/python-Qt5/">python Qt5</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-10-19</time>
-                          <a target="_self" href="/2020/10/19/JDBC/">JDBC学习</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-10-19</time>
-                          <a target="_self" href="/2020/10/19/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">MySQL学习笔记</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-10-19</time>
-                          <a target="_self" href="/2020/10/19/mycli%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/">mycli安装与使用</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-10-18</time>
-                          <a target="_self" href="/2020/10/18/%E5%9C%A8win10%E4%B8%8B%E4%BD%BF%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">在win10下使用Hexo搭建本地个人博客</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-10-18</time>
-                          <a target="_self" href="/2020/10/18/%E5%9C%A8centos7%E4%B8%8B%E5%AE%89%E8%A3%85%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6/">在centos7下安装软件</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-08-25</time>
-                          <a target="_self" href="/2020/08/25/vim8-1%E7%9A%84%E5%AE%89%E8%A3%85/">vim8.1的安装</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-08-24</time>
-                          <a target="_self" href="/2020/08/24/first-blog/">first blog</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2020-08-23</time>
-                          <a target="_self" href="/2020/08/23/hello-world/">Hello World</a>
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
+    <div class="nav">
+    <ul id="menu-menu" class="menu">
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="//" title="首页" target="_blank" rel="noopener">首页</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/categories/" title="分类" target="_blank" rel="noopener">分类</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/tags/" title="标签" target="_blank" rel="noopener">标签</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/archives/" title="归档" target="_blank" rel="noopener">归档</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/playlist/" title="歌单" target="_blank" rel="noopener">歌单</a>
+        </li>
+        
+        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/about/" title="关于" target="_blank" rel="noopener">关于</a>
+        </li>
+        
+    </ul>
+	<span class="target"></span>
+	<center>
+	<div class="hitokoto">
+		<span class="typed" id="hitokoto" data-st="true"></span>
+	</div>
+	</center>
+	
+	<p class="footerlinks">
+		<a href="#" class="iconfont icon-null"></a>
+		
+            <a href="/" title="facebook" class="iconfont icon-facebook" target="_blank" rel="noopener"> </a>
+        
+            <a href="/" title="github" class="iconfont icon-github" target="_blank" rel="noopener"> </a>
+        
+            <a href="/img/D_round_d.png" title="wechat" class="iconfont icon-wechat" target="_blank" rel="noopener"> </a>
+        
+            <a href="mailto:3465615034@qq.com" title="email" class="iconfont icon-email" target="_blank" rel="noopener"> </a>
+        
+		<a href="#" class="iconfont icon-null"></a>
+	</p>
+	
+    <p id="copyright">
+        &copy; 2020 yi lin.
+        <span> | </span>Powered by <a href="https://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        <span> | </span>Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a> by Fechin
+		
+    </p>
+</div>
+
+<div id="container">
+    
+<div id="screen">
+    <div id="mark">
+        <div class="layer" data-depth="0.4">
+            <img src="https://cdn.jsdelivr.net/gh/qiananran/Image/w882gr.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
         </div>
     </div>
+    <div id="vibrant">
+        <svg viewBox="0 0 2880 1620" height="100%" preserveAspectRatio="xMaxYMax slice">
+            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
+        </svg>
+        <div></div>
+    </div>
+    <div id="header">
+        <div>
+            <a class="image-logo" href="/"></a>
+			
+            <div class="iconfont icon-menu switchmenu"></div>
+        </div>
+    </div>
+    
+    <div id="post0">
+        <p>十月 25, 2020</p>
+        <h2><a href="/2020/10/25/%E6%89%8B%E5%86%99JDBC%E7%9A%84%E5%87%A0%E4%B8%AA%E6%AD%A5%E9%AA%A4/" title="手写JDBC的几个步骤" class="posttitle">手写JDBC的几个步骤</a></h2>
+        <p class="summary">手写JDBC的几个步骤
+编者：顾念
+使用的MySQL版本：8.0.19；
+
+序言因为数据库厂商有很多种，为了能够统...</p>
+    </div>
+    
 </div>
+
+    <div id="primary">
+        
+    </div>
+    
+</div>
+<div id="preview"></div>
+
+
 
 </body>
 
