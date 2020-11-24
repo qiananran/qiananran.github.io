@@ -6,7 +6,7 @@
   <link href="http://dyilin.com/atom.xml" rel="self"/>
   
   <link href="http://dyilin.com/"/>
-  <updated>2020-10-25T03:52:35.847Z</updated>
+  <updated>2020-11-24T10:23:47.113Z</updated>
   <id>http://dyilin.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>word.md</title>
+    <link href="http://dyilin.com/2020/11/24/word/"/>
+    <id>http://dyilin.com/2020/11/24/word/</id>
+    <published>2020-11-24T10:18:53.000Z</published>
+    <updated>2020-11-24T10:23:47.113Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="单词" scheme="http://dyilin.com/categories/%E5%8D%95%E8%AF%8D/"/>
+    
+    
+    <category term="word" scheme="http://dyilin.com/tags/word/"/>
+    
+  </entry>
   
   <entry>
     <title>手写JDBC的几个步骤</title>
