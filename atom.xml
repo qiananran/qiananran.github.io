@@ -6,7 +6,7 @@
   <link href="http://dyilin.com/atom.xml" rel="self"/>
   
   <link href="http://dyilin.com/"/>
-  <updated>2020-11-24T12:37:33.526Z</updated>
+  <updated>2020-11-24T13:54:43.765Z</updated>
   <id>http://dyilin.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>javawebXml</title>
+    <link href="http://dyilin.com/2020/11/24/javawebXml/"/>
+    <id>http://dyilin.com/2020/11/24/javawebXml/</id>
+    <published>2020-11-24T13:44:29.000Z</published>
+    <updated>2020-11-24T13:54:43.765Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="javaWeb" scheme="http://dyilin.com/categories/javaWeb/"/>
+    
+    
+    <category term="有关Javaweb的xml" scheme="http://dyilin.com/tags/%E6%9C%89%E5%85%B3Javaweb%E7%9A%84xml/"/>
+    
+  </entry>
+  
+  <entry>
     <title>word.md</title>
     <link href="http://dyilin.com/2020/11/24/word/"/>
     <id>http://dyilin.com/2020/11/24/word/</id>
     <published>2020-11-24T10:18:53.000Z</published>
-    <updated>2020-11-24T12:37:33.526Z</updated>
+    <updated>2020-11-24T13:50:08.054Z</updated>
     
     
       
@@ -46,7 +71,7 @@
     <link href="http://dyilin.com/2020/10/25/%E6%89%8B%E5%86%99JDBC%E7%9A%84%E5%87%A0%E4%B8%AA%E6%AD%A5%E9%AA%A4/"/>
     <id>http://dyilin.com/2020/10/25/%E6%89%8B%E5%86%99JDBC%E7%9A%84%E5%87%A0%E4%B8%AA%E6%AD%A5%E9%AA%A4/</id>
     <published>2020-10-25T03:46:38.000Z</published>
-    <updated>2020-10-25T03:52:35.847Z</updated>
+    <updated>2020-11-24T13:49:16.437Z</updated>
     
     
       
